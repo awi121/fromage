@@ -1,0 +1,156 @@
+{
+  "1": {"Q": "What is the name of the continent that contains Sydney Harbour and had its Indigenous population arrive on the northwest coast?",
+  "Expected": "Australia.",
+  "GPT": "The continent that contains Sydney Harbour and had its Indigenous population arrive on the northwest coast is Australia." },
+"2": {"Q": "How many years apart were the songs \"Think\" and \"Walking Away\" released by Information Society?",
+  "Expected": "Think and Walking Away were released two years apart.",
+  "GPT": "The songs \"Think\" and \"Walking Away\" by Information Society were released approximately 2 years apart from each other."
+},
+"3": {"Q": "In what state can you find the Silver Bridge and the East Huntington Bridge?",
+  "Expected": "West Virginia",
+  "GPT": "The state where you can find both the Silver Bridge and the East Huntington Bridge is West Virginia.\tThe state where you can find both the Silver Bridge and the East Huntington Bridge is West Virginia."
+},
+"4": {"Q": "Are Nike and Nut the same gender or different genders?",
+  "Expected": "They are the same gender.",
+  "GPT": "Nut and Nike belong to different mythological traditions, with Nut associated with ancient Egyptian mythology and Nike associated with Greek mythology."
+},
+"5": {"Q": "Which feature is shared by Male Crickets and Micropterigidae?",
+  "Expected": "teeth",
+  "GPT": "The final answer is that the ability to chirp is shared by male crickets, and the presence of toothed mandibles in the adult stage is associated with Micropterigidae."
+},
+"6": {"Q": "To which field of science do Chromoprotein and Chromatic remodelling belong to?",
+  "Expected": "Genetics",
+  "GPT": "Both Chromoprotein and Chromatic Remodeling belong to the field of molecular biology."
+},
+"7": {"Q": "Does pulmonary fibrosis and Myelofibrosis affect the same part of the body?",
+  "Expected": "Pulmonary fibrosis affects the lungs, while Myelofibrosis affects the bone marrow.",
+  "GPT": "The final answer is no. Pulmonary fibrosis affects the lungs, which are part of the respiratory system, as mentioned in Hint 1. On the other hand, myelofibrosis primarily affects the bone marrow, as indicated in Hint 2."
+},
+"8": {"Q": "What biological classification do Pantherinae and the Felinae have?",
+  "Expected": "They are both an example of subfamily, under the larger name of Felidae.",
+  "GPT": "Pantherinae and Felinae are both subfamilies in the biological classification of Felidae."
+},
+"9": {"Q": "What type of rails do the West Rail line in Denver and the Mass Transit Railway in Hong Kong have in common?",
+  "Expected": "The West Rail line and the Mass Transit Railway both use light rails.",
+  "GPT": "The final answer is that the information provided in the sources does not explicitly mention the type of rails used on the West Rail line in Denver or the Mass Transit Railway (MTR) in Hong Kong."
+},
+"10": {"Q": "From what hill can you see both the Basilica Julia and the Temple of Romulus?",
+  "Expected": "The Palatine Hill",
+  "GPT": "The Palatine Hill is the hill from which you can see both the Basilica Julia and the Temple of Romulus."
+},
+"11": {"Q": "Were both Cangrande and Scaliger warriors?",
+  "Expected": "No.",
+  "GPT": "In summary, Cangrande della Scala was a warrior, while Julius Caesar Scaliger and Joseph Justus Scaliger were not primarily known for their martial activities. If there is a specific Scaliger you are referring to, please provide more details for a more accurate response."
+},
+"12": {"Q": "Were the Galatian War and the First Mithridatic War both fought in the same location?",
+  "Expected": "No",
+  "GPT": "No, the Galatian War and the First Mithridatic War were not fought in the same location. "
+},
+"13": {"Q": "What type of body part do both the saphenous nerve and the superior lateral brachial cutaneous nerve belong to?",
+  "Expected": "Both nerves are part of limbs.",
+  "GPT": "Both the saphenous nerve and the superior lateral brachial cutaneous nerve belong to the peripheral nervous system. "
+},
+"14": {"Q": "Are both Hang gliders and parachuters attached to long chords?",
+  "Expected": "Hang gliders and parachuters are not both attached to long chords.",
+  "GPT": "No, hang gliders are not typically attached to long chords. "
+},
+"15": {"Q": "Is the hair part lined up with the person's nose in both Her Know and Joseph Two Bulls?",
+  "Expected": "No, there are not steps at the entrance of both the Hood Museum of Art and Budynek Biblioteki.",
+  "GPT": "Yes, there are steps at the entrance to both the Hood Museum of Art and Budynek Biblioteki."
+},
+"16": {"Q": "Is the hair part lined up with the person's nose in both Her Know and Joseph Two Bulls?",
+  "Expected": "Yes, the hair part is lined up with the person's nose in both Her Know and Joseph Two Bulls.",
+  "GPT": "yes"
+},
+"17": {"Q": "What color do the stalks of the Speise Morchel and the Amanita phalloides share?",
+  "Expected": "They share the color white.",
+  "GPT": "The stalks of the Speise Morchel and the Amanita phalloides are both white."
+},
+"18": {"Q": "Are the seats at Baku Olympic Stadium the same color as the seats in the stadium at Olympic Park in Munich?",
+  "Expected": "No, the seats at Baku Olympic Stadium are not the same color as the seats in the stadium at Olympic Park in Munich.",
+  "GPT": "No, the seats at Baku Olympic Stadium are not the same color as the seats in the stadium at Olympic Park in Munich. "
+},
+"19": {"Q": "Is the Academy of Art University and The Hong Kong Academy for Performing Arts both located on a hill?",
+  "Expected": "Yes, the Academy of Art University and The Hong Kong Academy for Performing Arts are both located on a hill.",
+  "GPT": "Yes."
+},
+"20": {"Q": "Is the butt of the gun depicted on both the Civil War Memorial in Bethel, Maine and the one on the Civil War Monument of Nuckolls County Courthouse touching the same surface that the soldiers' feet are touching?",
+  "Expected": "Yes, the butt of the gun on both the Civil War Memorial in Bethel, Maine and the one on the Civil War Monument of Nuckolls County Courthouse touch the same surface that the soldiers' feet are touching.",
+  "GPT": "Yes/"
+},
+"21": {"Q": "Is the butt of the gun depicted on both the Civil War Memorial in Bethel , Maine and the one on the Civil War Monument of Nuckolls County Courthouse touching the same surface that the soldiers ' feet are touching ??",
+  "Expected": "Yes, the butt of the gun on both the Civil War Memorial in Bethel, Maine and the one on the Civil War Monument of Nuckolls County Courthouse touch the same surface that the soldiers' feet are touching.",
+  "GPT": "Yes" },
+"22": {"Q": "What are located on pedestals in both the paintings Imaginary View of Rome with the Horse - Tamer of the Monte Cavallo and a Church and Landscape with Classical Ruins and Figures ?",
+  "Expected": "Statues are located on pedestals in both the paintings Imaginary View of Rome with the Horse-Tamer of the Monte Cavallo and a Church and Landscape with Classical Ruins and Figure.",
+  "GPT": "In both paintings, the description doesn't specifically mention what is located on pedestals. "
+},
+"23": {"Q": "Do both the Erica herbacea and the Lamium maculatum have spiky leaves ?",
+  "Expected": "No, Erica herbacea and Lamium maculatum do not both have spiky leaves",
+  "GPT": "Yes, according to the provided information, both the Erica herbacea and the Lamium maculatum have spiky leaves."
+},
+"24": {"Q": "What animal can be found in both Peace and Plenty and Claude ' s landscape ?",
+  "Expected": "A cow can be found in both Peace and Plenty and Claude's landscape.",
+  "GPT": "In both Peace and Plenty and Claude's landscape, cows are depicted among the animals in the paintings."
+},
+"25": {"Q": "In what shape are the petals of the flower of the Camellia Japonica arranged ?",
+  "Expected": "The petals of the flower of the Camellia Japonica are arranged in a star shape",
+  "GPT": "The petals of the flower of the Camellia Japonica are arranged in a single row, with five petals that are slightly curved."
+},
+"26": {"Q": "On the Berlin Tiergarten Denkmal Albrecht Graf von Roon statue , in which hand is the figure holding something ?",
+  "Expected": "On the Berlin Tiergarten Denkmal Albrecht Graf von Roon statue, the figure is holding something in its left hand",
+  "GPT": "The figure in the image is holding something in his right hand. It appears to be a baton or some other type of weapon. ."
+},
+"27": {"Q": "What is the predominant color of the Chacoan naked - tailed armadillo ?",
+  "Expected": "The predominant color of the Chacoan naked-tailed armadillo is brown.",
+  "GPT": "The Chacoan naked - tailed armadillo is primarily brown in color."
+},
+"28": {"Q": "What ' s on top of the Lunar Module in the Kennedy Space Center in Cape Canaveral , Florida ?",
+  "Expected": "Atop the Lunar Module in the Kennedy Space Center in Cape Canaveral, Florida, is a satellite dish.",
+  "GPT": "The image shows a lunar module suspended from the ceiling in the Kennedy Space Center in Cape Canaveral, Florida"
+},
+"29": {"Q": "Which mascot was present at the 2014 Winter Olympics hockey game between the USA and Russia ?",
+  "Expected": "A polar bear mascot was present at the 2014 Winter Olympics hockey game between the USA and Russia.",
+  "GPT": "TI’m sorry, but I don’t have any information about a specific mascot being present in the image you provided."
+},
+"30": {"Q": "How many columns are there in front of the Cathedral of Blessed Sacrament in New Zealand ?",
+  "Expected": "There are four columns in front of the Cathedral of Blessed Sacrament in New Zealand.",
+  "GPT": "There are two columns in front of the Cathedral of Blessed Sacrament in New Zealand."
+},
+"31": {"Q": "On which side of the airplane ' s door was the Indian flag when the Prime Minister , Shri Narendra Modi , arrivee at Mangalore airport in Karnataka on October 29 , 2017 ?",
+  "Expected": "When the Prime Minister, Shri Narendra Modi, arrived at Mangalore airport in Karnataka on October 29, 2017 the Indian flag was to the right of the door.",
+  "GPT": "Yes" },
+"32": {"Q": "What shape is the base of the statue in the Darlington Memorial Fountain?",
+  "Expected": "The base of the statue in the Darlington Memorial Fountain is an octagon.",
+  "GPT": "The base of the statue is a golden pedestal with a woman holding a deer in her arms. "
+},
+"33": {"Q": "Do Joe Smith and Goran Dragic shoot with the same hand ?",
+  "Expected": "Joe Smith and Goran Dragic do not shoot with the same hand.",
+  "GPT": " there isn't sufficient information to confirm or refute whether Joe Smith and Goran Dragic shoot with the same hand."
+},
+"34": {"Q": "Are the colors of the word lyric different in the Lyric Theater , Blacksburg and Lyric Theater , Georgia signs ?",
+  "Expected": "No, the colors are not different.",
+  "GPT": "No, the colors of the word lyric on the signs of the Lyric Theater in Blacksburg and the Lyric Theater in Georgia are not different"
+},
+"35": {"Q": "What shape are the headlights on both the 1952 Kaiser Manhattan and the Lotus XI LeMans ?",
+  "Expected": "The 1952 Kaiser Manhattan and the Lotus XI LeMans both have circular headlights.",
+  "GPT": "Both the 1952 Kaiser Manhattan and the Lotus XI LeMans have rectangular-shaped headlights."
+},
+"36": {"Q": "Does the female traditional clothing of Sardinian people include a skirt or pants ?",
+  "Expected": "The female traditional clothing of the Sardinian people includes a skirt",
+  "GPT": "Yes, the traditional clothing of Sardinian people includes a skirt or pant."
+},
+"37": {"Q": "How many total light posts are at both ends of Abbey Road crosswalk in London ?",
+  "Expected": "Two light posts are at both ends of Abbey Road crosswalk in London.",
+  "GPT": "There are two light posts at both ends of Abbey Road crosswalk in London."
+},
+"38": {"Q": "What common features are shared by the Architecture Building in Toronto and the Danish Architecture Center ?",
+  "Expected": "They are both historic buildings with rows of windows on their facade.",
+  "GPT": "Based on the provided descriptions, the common features shared by the Architecture Building in Toronto and the Danish Architecture Center are tall windows."
+},
+"39": {"Q": "Does the bornean orangutan have hair between its nostrils and mouth ?",
+  "Expected": "No, it does not have hair there.",
+  "GPT": "Yes, the Bornean orangutan has hair between its nostrils and mouth. "
+}
+}
+

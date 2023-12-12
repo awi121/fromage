@@ -144,8 +144,7 @@ class FromageModel(nn.Module):
         else:
           raise ValueError(f'Embedding of layer {layer_idx} was requested but model only has {self.lm.config.num_hidden_layers} layers.')
     
-    self.resize_embeddings=nn.Linear(1024,764)
-    self.visual_embeddings = nn.Linear(764, embedding_dim)
+    self.visual_embeddings = VisualEmbedding()
     self.visual_fc = nn.LazyLinear(out_dim)
 
     self.image_dropout = nn.Dropout(self.args.image_embed_dropout_prob)
@@ -170,10 +169,10 @@ class FromageModel(nn.Module):
         # Read features
         with open(feature1_path, "rb") as f:
             feature1 = pickle.load(f)
-            feature1 = torch.from_numpy(feature1)
+        feature1 = feature1['fc1_features']
         with open(feature2_path, "rb") as f:
             feature2 = pickle.load(f)
-            feature2 = torch.from_numpy(feature2)
+        feature2 = feature2['fc1_features']
         # print(feature1.shape)
         # Assuming feature1 and feature2 are PyTorch tensors
         # If not, you may need to convert them to tensors using torch.tensor()
@@ -186,10 +185,8 @@ class FromageModel(nn.Module):
         features_list.append(merged_feature)
 
     # Stack the list of stacked features along a new dimension
-    # pdb.set_trace()
     batch_tensor = torch.stack(features_list).cuda()
     encoder_outputs = batch_tensor
-    encoder_outputs = self.resize_embeddings(encoder_outputs)
     # Use the correct fc based on function argument.
     if mode == 'captioning':
       
@@ -199,8 +196,9 @@ class FromageModel(nn.Module):
       visual_embs = self.visual_fc(encoder_outputs)  # (2, D * n_visual_tokens)
       visual_embs = torch.reshape(visual_embs, (visual_embs.shape[0], 1, -1))
     elif mode == 'qa':
-        visual_embs = self.visual_embeddings(encoder_outputs)  # (2, D * n_visual_tokens)
-        visual_embs = torch.reshape(visual_embs, (visual_embs.shape[0], self.args.n_visual_tokens, -1))
+      encoder_outputs=encoder_outputs.view(encoder_outputs.size(0),-1,encoder_outputs.size(1))
+      visual_embs = self.visual_embeddings(encoder_outputs)
+      visual_embs = visual_embs.reshape(visual_embs.size(0),self.args.n_visual_tokens , -1)
       # visual_embs = self.visual_embeddings(encoder_outputs)  # (2, D * n_visual_tokens)
       # visual_embs = torch.reshape(visual_embs, (visual_embs.shape[0], self.args.n_visual_tokens, -1))
     else:
